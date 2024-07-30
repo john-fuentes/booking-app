@@ -14,7 +14,7 @@ import PlacePage from './pages/PlacePage.jsx'
 import BookingsPage from './pages/BookingsPage.jsx'
 import BookingPage from './pages/BookingPage.jsx'
 
-axios.defaults.baseURL= import.meta.ev.VITE_API_BASE_URL;
+axios.defaults.baseURL= import.meta.env.VITE_API_BASE_URL;
 axios.defaults.withCredentials = true;
 
 function App() {
