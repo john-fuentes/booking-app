@@ -231,7 +231,7 @@ app.post('/api/bookings', async (req,res) => {
         user:userData.id,
     }).then((doc) => {
         res.json(doc);
-    }).catch(() => {
+    }).catch((err) => {
         throw err
     })
 });
