@@ -10,7 +10,6 @@ lerna-debug.log*
 .env
 yarn.lock
 vite.config.js
-package.json
 .eslintrc.cjs
 
 node_modules
